@@ -14,7 +14,7 @@ const index = () => {
       <main>
         <Container maxWidth="lg">
             <Typography variant="h4" color="inherit" align="center">
-                Website is under construction. Yo
+                Website is under construction.
             </Typography>
         </Container>
       </main>

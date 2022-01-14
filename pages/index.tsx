@@ -12,7 +12,6 @@ const index = () => {
       </Head>
 
       <main>
-
         <Container maxWidth="lg" style={{marginTop: "100px"}}>
             <Typography variant="h4" color="inherit" align="center">
                 Website is under construction.

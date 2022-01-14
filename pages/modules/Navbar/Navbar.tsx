@@ -1,14 +1,15 @@
 import React from 'react'
-import {AppBar, Container, Toolbar, Typography} from '@material-ui/core'
+import Link from 'next/link'
+import {AppBar, Container, Toolbar, Typography, Button} from '@material-ui/core'
 
 const Navbar = () => {
     return (
         <div>
-            <AppBar position="fixed" color="inherit">
+            <AppBar color="inherit">
                 <Toolbar>
-                    <Container maxWidth="lg">
+                    <Container>
                         <Typography variant="h6" color="inherit">
-                            Kxffiehub.xyz
+                            Kxffie Hub
                         </Typography>
                     </Container>
                 </Toolbar>

@@ -1,7 +1,13 @@
 import Head from 'next/head'
 import React from 'react'
 
-import {Typography, Container} from '@material-ui/core'
+import {Typography, Container, Grid, } from '@material-ui/core'
+
+const projects = [
+  {
+    id: 1, name: 'Test', description: 'Test'
+  }
+]
 
 const index = () => {
   return (
@@ -13,9 +19,9 @@ const index = () => {
 
       <main>
         <Container maxWidth="lg" style={{marginTop: "100px"}}>
-            <Typography variant="h4" color="inherit" align="center">
-                Website is under construction.
-            </Typography>
+          <Typography variant="h4" color="inherit" align="center" gutterBottom>
+            Projects
+          </Typography>
         </Container>
       </main>
     </div>

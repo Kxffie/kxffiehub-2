@@ -1,5 +1,5 @@
 import React from 'react'
-import {AppBar, Container, Toolbar, IconButton, Badge, MenuItem, Menu, Typography} from '@material-ui/core'
+import {AppBar, Container, Toolbar, Typography} from '@material-ui/core'
 
 const Navbar = () => {
     return (
@@ -13,7 +13,6 @@ const Navbar = () => {
                     </Container>
                 </Toolbar>
             </AppBar>
-            
         </div>
     )
 }

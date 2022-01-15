@@ -4,6 +4,13 @@ import Head from 'next/head'
 // Styles
 import Layout from "./modules/Layout"
 
+const TopProgressBar = dynamic(
+  () => {
+    return import("components/TopProgressBar");
+  },
+  { ssr: false },
+);
+
 // app
 function MyApp({ Component, pageProps }) {
   return (
@@ -14,6 +21,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <Layout>
+        <TopProgressBar />
         <Component {...pageProps} />
       </Layout>
     </div>

@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }) {
     <div className={styles.main}>
       <Head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400, 500,700&display=swap" />
+        <link rel="icon" href="pfp_plain.png" />
       </Head>
 
       <Layout>

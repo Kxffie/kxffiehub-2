@@ -13,14 +13,14 @@ const index = () => {
   return (
     <div>
       <Head>
-        <title>KxffieHub.xyz | Home</title>
+        <title>KxffieHub.xyz | Projects</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400, 500,700&display=swap" />
       </Head>
 
       <main>
         <Container maxWidth="lg" style={{marginTop: "100px"}}>
           <Typography variant="h4" color="inherit" align="center" gutterBottom>
-            Home
+            Projects
           </Typography>
         </Container>
       </main>

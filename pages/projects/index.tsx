@@ -1,13 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 
-import {Typography, Container, Grid, } from '@material-ui/core'
-
-const projects = [
-  {
-    id: 1, name: 'Test', description: 'Test'
-  }
-]
+import {Typography, Container } from '@material-ui/core'
 
 const index = () => {
   return (

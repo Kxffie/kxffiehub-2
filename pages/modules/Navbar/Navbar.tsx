@@ -1,20 +1,22 @@
 import React from 'react'
 import Link from 'next/link'
-import {AppBar, Container, Toolbar, Typography, Button} from '@material-ui/core'
+import {AppBar, Container, Toolbar, Typography, Box, Button } from '@material-ui/core'
+import { YoutubeFill } from 'akar-icons';
 
 const Navbar = () => {
     return (
-        <div>
-            <AppBar color="inherit">
+        <Box style={{flexGrow: 1}}>
+            <AppBar color="inherit" position="static">
                 <Toolbar>
-                    <Container>
-                        <Typography variant="h6" color="inherit">
-                            Kxffie Hub
-                        </Typography>
-                    </Container>
+                    <Typography variant="h6" color="inherit" component="div" style={{flexGrow: 1}}>
+                        Kxffie Hub
+                    </Typography>
+                    <Link href="https://youtube.kxffiehub.xyz/">
+                        <Button><YoutubeFill color="black" size={24} /></Button>
+                    </Link>
                 </Toolbar>
             </AppBar>
-        </div>
+        </Box>
     )
 }
 

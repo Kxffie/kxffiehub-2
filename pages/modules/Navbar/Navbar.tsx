@@ -5,8 +5,8 @@ import { YoutubeFill } from 'akar-icons';
 
 const Navbar = () => {
     return (
-        <Box style={{flexGrow: 1}}>
-            <AppBar color="inherit" position="static">
+        <div style={{flexGrow: 1}}>
+            <AppBar color="inherit">
                 <Toolbar>
                     <Typography variant="h6" color="inherit" component="div" style={{flexGrow: 1}}>
                         Kxffie Hub
@@ -16,7 +16,7 @@ const Navbar = () => {
                     </Link>
                 </Toolbar>
             </AppBar>
-        </Box>
+        </div>
     )
 }
 

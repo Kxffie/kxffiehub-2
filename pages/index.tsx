@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 
-import {Typography, Container } from '@material-ui/core'
+import {Typography, Container, Toolbar} from '@material-ui/core'
 
 const index = () => {
   return (
@@ -12,7 +12,8 @@ const index = () => {
       </Head>
 
       <main>
-        <Container maxWidth="lg" style={{marginTop: "100px"}}>
+        <Toolbar />
+        <Container maxWidth="lg">
           <Typography variant="h4" color="inherit" align="center" gutterBottom>
             Home
           </Typography>

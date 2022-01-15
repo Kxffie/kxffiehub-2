@@ -1,16 +1,8 @@
 // Import thing
 import Head from 'next/head'
-import Router from 'next/router';
-import nProgress from 'nprogress';
 
 // Styles
 import Layout from "./modules/Layout"
-import '../styles/nprogress.css'
-
-// nprogress
-Router.events.on('routeChangeStart', nProgress.start);
-Router.events.on('routeChangeError', nProgress.done);
-Router.events.on('routeChangeComplete', nProgress.done);
 
 // app
 function MyApp({ Component, pageProps }) {

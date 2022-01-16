@@ -2,7 +2,7 @@
 
 This repository is for the ***[kxffiehub.xyz](https://www.kxffiehub.xyz)*** source code.
 
-##### Some things I want to get done-
+#### Some things I want to get done-
 > 1. Finish the website (obviously).
 >    - Posting System (like if you need help coding/ doing something else).
 >    - Profile System.
@@ -12,10 +12,10 @@ This repository is for the ***[kxffiehub.xyz](https://www.kxffiehub.xyz)*** sour
 > 3. Maybe an online store (real or fake).
 > 4. Coding tutorials (either on youtube, patreon, somewhere).
 
-##### Socials
+#### Socials
 <a href="https://youtube.kxffiehub.xyz">youtube.kxffiehub.xyz</a>
 <a href="https://discord.kxffiehub.zyz">discord.kxffiehub.xyz</a>
 <a href="https://github.kxffiehub.xyz">github.kxffiehub.xyz</a>
 
-<!-- ##### Donations
+<!-- #### Donations
 Cashapp <a href="https://cash.app/$kxffie">$Kxffie</a> -->

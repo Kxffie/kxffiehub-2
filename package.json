@@ -13,13 +13,15 @@
     "@material-ui/icons": "^4.11.2",
     "@mui/icons-material": "^5.2.5",
     "@mui/material": "^5.2.8",
+    "@tanem/react-nprogress": "^4.0.2",
     "akar-icons": "^1.9.6",
-    "next": "^12.0.7",
+    "next": "^12.0.8",
     "nprogress": "^0.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "redis-om": "^0.1.7",
-    "sass": "^1.47.0"
+    "sass": "^1.47.0",
+    "zustand": "^3.6.9"
   },
   "devDependencies": {
     "@types/react": "^17.0.38",

@@ -1,6 +1,6 @@
 ## Hey, I'm Kxffie!
 
-This repository is for the ***[kxffiehub.xyz](https://www.kxffiehub.xyz)*** source code.
+This repository is for the ***<a target="_blank" href="https://www.kxffiehub.xyz">kxffiehub.xyz</a>*** source code.
 
 ### Some things I want to get done-
 > 1. Finish the website (obviously).
@@ -13,9 +13,9 @@ This repository is for the ***[kxffiehub.xyz](https://www.kxffiehub.xyz)*** sour
 > 4. Coding tutorials (either on youtube, patreon, somewhere).
 
 ### Socials
-<a href="https://youtube.kxffiehub.xyz">youtube.kxffiehub.xyz</a>
-<a href="https://discord.kxffiehub.zyz">discord.kxffiehub.xyz</a>
-<a href="https://github.kxffiehub.xyz">github.kxffiehub.xyz</a>
+<a target="_blank" href="https://youtube.kxffiehub.xyz">youtube.kxffiehub.xyz</a>
+<a target="_blank" href="https://discord.kxffiehub.zyz">discord.kxffiehub.xyz</a>
+<a target="_blank" href="https://github.kxffiehub.xyz">github.kxffiehub.xyz</a>
 
 <!-- ### Donations
 Cashapp <a href="https://cash.app/$kxffie">$Kxffie</a> -->

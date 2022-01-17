@@ -9,7 +9,7 @@ const Navbar = () => {
             <AppBar color="inherit">
                 <Container maxWidth="lg">
                     <Toolbar>
-                        <Typography variant="h6" color="inherit" component="div" style={{flexGrow: 1}}>
+                        <Typography align="left" variant="h5" color="inherit" component="div" style={{flexGrow: 1}}>
                             Kxffie Hub
                         </Typography>
 
@@ -17,21 +17,26 @@ const Navbar = () => {
                             <Link href="/">
                                 <Button>home</Button>
                             </Link>
-                            <Link href="/projects">
-                                <Button>projects</Button>
+                            <Link href="/download">
+                                <Button>download</Button>
+                            </Link>
+                            <Link href="/about">
+                                <Button>about</Button>
                             </Link>
                         </Typography>
 
                         <Box component="div" style={{flexGrow: 0}}>
-                            <Link href="https://youtube.kxffiehub.xyz/">
-                                <a target="_blank"><Button><YoutubeFill color="black" size={24} /></Button></a>
-                            </Link>
-                            <Link href="https://discord.kxffiehub.xyz/">
-                                <a target="_blank"><Button><DiscordFill color="black" size={24} /></Button></a>
-                            </Link>
-                            <Link href="https://github.kxffiehub.xyz/">
-                                <a target="_blank"><Button><GithubFill color="black" size={24} /></Button></a>
-                            </Link>
+                            <Typography align="right">
+                                <Link href="https://youtube.kxffiehub.xyz/">
+                                    <a target="_blank"><Button><YoutubeFill color="black" size={24} /></Button></a>
+                                </Link>
+                                <Link href="https://discord.kxffiehub.xyz/">
+                                    <a target="_blank"><Button><DiscordFill color="black" size={24} /></Button></a>
+                                </Link>
+                                <Link href="https://github.kxffiehub.xyz/">
+                                    <a target="_blank"><Button><GithubFill color="black" size={24} /></Button></a>
+                                </Link>
+                            </Typography>
                         </Box>
                     </Toolbar>
                 </Container>

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Navbar from './Navbar/Navbar'
+import { Toolbar } from '@material-ui/core'
 
 const layout = ({children}) => {
     return (
@@ -11,6 +12,8 @@ const layout = ({children}) => {
 
             {/* Pages */}
             <div>
+                <Toolbar />
+                <Toolbar />
                 {children}
             </div>
         </div>
